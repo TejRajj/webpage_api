@@ -19,6 +19,8 @@ from django.conf.urls import url
 from rest_framework.urlpatterns import format_suffix_patterns
 from companies import views
 
+# comment
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'logindb/', views.LoginList.as_view()),
