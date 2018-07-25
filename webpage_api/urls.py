@@ -20,6 +20,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from companies import views
 
 # comment
+#urlpatterns = format_suffix_patterns(urlpatterns)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
